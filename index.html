@@ -52,29 +52,25 @@
         </div>
     </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Have a question or want to work with us? Reach out!</p>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </section>
+<!--    Add email once it's available -->
+<!--    <section id="contact">-->
+<!--        <div class="container">-->
+<!--            <h2>Contact Us</h2>-->
+<!--            <p>Have a question or want to work with us? Reach out!</p>-->
+<!--        </div>-->
+<!--    </section>-->
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 ReliantWeb Technologies. All rights reserved.</p>
+            <p id="copyright">&copy; 2024 ReliantWeb Technologies. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        window.onload = function() {
+            var currentYear = new Date().getFullYear();
+            document.getElementById('copyright').textContent = '© ' + currentYear + ' ReliantWeb Technologies. All rights reserved.';
+        }
+    </script>
 </body>
 </html>
