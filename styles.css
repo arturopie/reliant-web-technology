@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #333333 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .logo {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: -20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+#hero {
+    background: #4CAF50;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#services,
+#about,
+#contact {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#services .service,
+#contact form {
+    margin: 20px 0;
+}
+
+footer {
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
